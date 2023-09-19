@@ -1,5 +1,6 @@
 package com.lab0;
 
+// Class to move the Hero
 public class MoveHeroClass {
     /* Returns:
         o -> Game Over // Hitted the Dragon
@@ -26,12 +27,14 @@ public class MoveHeroClass {
                 // Check if you pick the key
                 if (maze[i - 1][k] == 5 && !GlobalVariable.key) GlobalVariable.key = true;
 
-                // Check if you hit the Exit
-                if (maze[i - 1][k] != 1 && GlobalVariable.key) {
-                    return 2;
-                } else {
-                    maze[i - 1][k] = 4;
-                    maze[i][k] = 2;
+                // Check if you hit the Dragon edge
+                if (CheckDimension.checkDimension(i, k)) {
+                    if (maze[i - 2][k] == 3 || maze[i - 1][k - 1] == 3 || maze[i - 1][k + 1] == 3) {
+                        maze[i - 1][k] = 2;
+                        maze[i][k] = 0;
+                        return 0;
+                    }
+
                 }
 
                 // Check if you hit the wall
@@ -46,12 +49,14 @@ public class MoveHeroClass {
                 // Check if you pick the key
                 if (maze[i + 1][k] == 5 && !GlobalVariable.key) GlobalVariable.key = true;
 
-                // Check if you hit the Exit
-                if (maze[i + 1][k] != 1 && GlobalVariable.key) {
-                    return 2;
-                } else {
-                    maze[i + 1][k] = 4;
-                    maze[i][k] = 2;
+                // Check if you hit the Dragon edge
+                if (CheckDimension.checkDimension(i, k)) {
+                    if (maze[i + 2][k] == 3 || maze[i + 1][k - 1] == 3 || maze[i + 1][k + 1] == 3) {
+                        maze[i + 1][k] = 2;
+                        maze[i][k] = 0;
+                        return 0;
+                    }
+
                 }
 
                 // Check if you hit the wall
@@ -66,12 +71,14 @@ public class MoveHeroClass {
                 // Check if you pick the key
                 if (maze[i][k - 1] == 5 && !GlobalVariable.key) GlobalVariable.key = true;
 
-                // Check if you hit the Exit
-                if (maze[i][k - 1] != 1 && GlobalVariable.key) {
-                    return 2;
-                } else {
-                    maze[i][k - 1] = 4;
-                    maze[i][k] = 2;
+                // Check if you hit the Dragon edge
+                if (CheckDimension.checkDimension(i, k)) {
+                    if (maze[i][k - 2] == 3 || maze[i + 1][k - 1] == 3 || maze[i - 1][k - 1] == 3) {
+                        maze[i][k - 1] = 2;
+                        maze[i][k] = 0;
+                        return 0;
+                    }
+
                 }
 
                 // Check if you hit the wall
@@ -86,12 +93,21 @@ public class MoveHeroClass {
                 // Check if you pick the key
                 if (maze[i][k + 1] == 5 && !GlobalVariable.key) GlobalVariable.key = true;
 
-                // Check if you hit the Exit
-                if (maze[i][k + 1] != 1 && GlobalVariable.key) {
+                // Check if you hit the Dragon edge
+                if (CheckDimension.checkDimension(i, k)) {
+                    if (maze[i][k + 2] == 3 || maze[i - 1][k + 1] == 3 || maze[i + 1][k + 1] == 3) {
+                        maze[i][k + 1] = 2;
+                        maze[i][k] = 0;
+                        return 0;
+                    }
+
+                }
+
+                // Check if you hit the Exit and are able to go through
+                if (maze[i][k + 1] == 4 && GlobalVariable.key) {
+                    maze[i][k + 1] = 2;
+                    maze[i][k] = 0;
                     return 2;
-                } else {
-                    maze[i][k + 1] = 4;
-                    maze[i][k] = 2;
                 }
 
                 // Check if you hit the wall

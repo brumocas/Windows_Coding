@@ -37,12 +37,20 @@ public class Main {
                 {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
         };
 
-        System.out.println("Here Be Dragons Game\n" + GlobalVariable.key);
+        // Generate key Random pos
+        /*
+        do {
+
+        }while ()
+        */
+
+        System.out.println("Here Be Dragons Game\n");
         PrintMazeClass.printMaze(maze);
 
         Scanner scanner = new Scanner(System.in);
         char movement;
 
+        int move_status;
 
         do {
 
@@ -51,15 +59,26 @@ public class Main {
             // Read a single character from the input
             movement = scanner.next().charAt(0);
 
-            MoveHeroClass.moveHero(maze, movement);
+            move_status = MoveHeroClass.moveHero(maze, movement);
+
+            if (move_status == 2) {
+                PrintMazeClass.printMaze(maze);
+                System.out.println("You Win amazing");
+                break;
+            }
+
+            if (move_status == 0) {
+                PrintMazeClass.printMaze(maze);
+                System.out.println("Game Over");
+                break;
+            }
 
             PrintMazeClass.printMaze(maze);
         }
         while (movement != 'q' && movement != 'Q');
 
-        System.out.println("Game Ended");
         // Close the scanner when you are done with it (usually at the end of your program)
-        // scanner.close();
+        scanner.close();
 
     }
 }
