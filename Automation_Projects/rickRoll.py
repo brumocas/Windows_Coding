@@ -15,10 +15,10 @@ def play_rick_roll():
     # Move the mouse to close any pop-ups (adjust coordinates based on your screen resolution)
     pyautogui.moveTo(100, 100)
 
-    """
+    
     while True:
         pyautogui.moveTo(random.randint(1,1000), random.randint(1,1000))
-    """
+    
 
 
 if __name__ == "__main__":
