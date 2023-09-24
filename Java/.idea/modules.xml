@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PSW/MiniQuestI/Here_be_Dragons_lab0/Here_be_Dragons_lab0.iml" filepath="$PROJECT_DIR$/PSW/MiniQuestI/Here_be_Dragons_lab0/Here_be_Dragons_lab0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PSW/MiniQuestI/Here_be_Dragons_lab0_T_sol/Here_be_Dragons_lab0_T_sol.iml" filepath="$PROJECT_DIR$/PSW/MiniQuestI/Here_be_Dragons_lab0_T_sol/Here_be_Dragons_lab0_T_sol.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Intro_to_java/Intro_to_java.iml" filepath="$PROJECT_DIR$/Intro_to_java/Intro_to_java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PSW/MiniQuestII/MiniQuestII.iml" filepath="$PROJECT_DIR$/PSW/MiniQuestII/MiniQuestII.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP/OOP.iml" filepath="$PROJECT_DIR$/OOP/OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_Constructors/OOP_Constructors.iml" filepath="$PROJECT_DIR$/OOP_Constructors/OOP_Constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_Generic_Lists/OOP_Generic_Lists.iml" filepath="$PROJECT_DIR$/OOP_Generic_Lists/OOP_Generic_Lists.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OOP_M_Overriding/OOP_M_Overriding.iml" filepath="$PROJECT_DIR$/OOP_M_Overriding/OOP_M_Overriding.iml" />
+    </modules>
+  </component>
+</project>
