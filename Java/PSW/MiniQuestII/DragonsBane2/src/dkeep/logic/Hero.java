@@ -1,26 +1,32 @@
 package dkeep.logic;
 
+import dkeep.random.RandomNumber;
+
 public class Hero extends Element {
     private static int tag = 2;
-    private boolean key = false;
+    private boolean wSword = false;
 
     // Constructor
     public Hero() {
 
     }
 
+    // Get Hero tag number
     public static int getTag() {
         return tag;
     }
 
-    public void getKey() {
-        key = true;
+    // Hero equips the sword
+    public void getSword() {
+        wSword = true;
     }
 
-    public boolean keyStatus() {
-        return key;
+    // Check if Hero has the sword
+    public boolean swordStatus() {
+        return wSword;
     }
 
+    // Set Hero Random position
     public void setMap(Map map) {
         int i, k;
         do {
@@ -32,6 +38,7 @@ public class Hero extends Element {
         setCoordinates(i, k);
     }
 
+    // Function to move the Hero position
     public int move(Map map, char movement) {
         // Find Hero position
         int i, k;
@@ -52,27 +59,41 @@ public class Hero extends Element {
 
     public int nextMove(int i, int k, Map map) {
 
-        // Check if you pick the key
-        if (!keyStatus() && map.getElement(i, k) == Key.getTag()) {
-            getKey();
+        // Check if you pick the Sword
+        if (!swordStatus() && map.getElement(i, k) == Sword.getTag()) {
+            getSword();
         }
 
         // Check if you are able to exit
-        if (keyStatus() && map.getElement(i,k) == Map.getExit()){
-            map.setElement(i,k,Hero.getTag());
-            map.setElement(getCoordinateX(),getCoordinateY(), Map.getSpace());
-            setCoordinates(i,k);
+        if (map.statusDragons() && map.getElement(i, k) == Map.getExit()) {
+            map.setElement(i, k, Hero.getTag());
+            map.setElement(getCoordinateX(), getCoordinateY(), Map.getSpace());
+            setCoordinates(i, k);
             return 2;
         }
 
-        // Check if you are going to hit the adjacent dragon squares
-        if (Dimensions.check(i , k , map.getLength())) {
+        // Check if you are going to hit the adjacent dragon squares and can kill him
+        if (Dimensions.check(i, k, map.getLength())) {
             if (map.getElement(i - 1, k) == Dragon.getTag() || map.getElement(i + 1, k) == Dragon.getTag()
                     || map.getElement(i, k - 1) == Dragon.getTag() || map.getElement(i, k + 1) == Dragon.getTag()) {
-                map.setElement(i,k,Hero.getTag());
-                map.setElement(getCoordinateX(),getCoordinateY(), Map.getSpace());
-                setCoordinates(i,k);
-                return 0;
+                if (swordStatus()) {
+                    // You kill the Dragon
+                    map.killDragon();
+                    eraseDragon(i + 1, k, map);
+                    eraseDragon(i - 1, k, map);
+                    eraseDragon(i, k + 1, map);
+                    eraseDragon(i, k - 1, map);
+                    map.setElement(i, k, Hero.getTag());
+                    map.setElement(getCoordinateX(), getCoordinateY(), Map.getSpace());
+                    setCoordinates(i, k);
+                    return 1;
+                } else {
+                    // You die, no Sword
+                    map.setElement(i, k, Hero.getTag());
+                    map.setElement(getCoordinateX(), getCoordinateY(), Map.getSpace());
+                    setCoordinates(i, k);
+                    return 0;
+                }
             }
         }
 
@@ -85,6 +106,11 @@ public class Hero extends Element {
         }
 
         return 1;
+    }
+
+    void eraseDragon(int i, int k, Map map) {
+        if (map.getElement(i, k) == Dragon.getTag())
+            map.setElement(i, k, Map.getSpace());
     }
 }
 

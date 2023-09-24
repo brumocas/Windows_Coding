@@ -1,4 +1,4 @@
-package dkeep.logic;
+package dkeep.random;
 
 import java.util.Random;
 

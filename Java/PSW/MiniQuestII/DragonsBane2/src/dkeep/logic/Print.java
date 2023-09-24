@@ -19,7 +19,7 @@ public class Print {
                         System.out.print("E ");
                         break;
                     case 5:
-                        System.out.print("K ");
+                        System.out.print("S ");
                         break;
                     case 0:
                         System.out.print("  ");

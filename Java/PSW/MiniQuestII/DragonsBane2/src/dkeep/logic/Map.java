@@ -18,11 +18,7 @@ package dkeep.logic;
         5 -> Key
          */
 public class Map {
-    private boolean gameOver = false;
-    private static int wall = 1;
-    private static int exit = 4;
-    private static int space = 0;
-    private final int MazeSize = 10;
+    private static int numberDragons = 0;
     private int[][] maze = {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
             {1, 0, 0, 0, 0, 0, 0, 0, 0, 1},
@@ -47,30 +43,43 @@ public class Map {
         maze[i][k] = character;
     }
 
-    // Get element (getter)
+    // Get element number (getter)
     public int getElement(int i, int k) {
         return maze[i][k];
     }
 
     // Get maze length
     public int getLength() {
-        return MazeSize;
+        return 10;
     }
 
     // Get Wall info
     public static int getWall() {
-        return wall;
+        return 1;
     }
 
     // Get Exit info
     public static int getExit() {
-        return exit;
+        return 4;
     }
 
     // Get space info
     public static int getSpace() {
-        return space;
+        return 0;
     }
 
+    // Set number of dragons to be killed
+    public void setNumberDragons(int num){
+        numberDragons = num;
+    }
 
+    // Kill Dragon
+    public void killDragon(){
+        numberDragons--;
+    }
+
+    // Check if all Dragons are Dead
+    public boolean statusDragons(){
+        return numberDragons < 1;
+    }
 }

@@ -19,7 +19,7 @@ public class Dragon extends Element {
             k = RandomNumber.randomNumber();
         }
         while (map.getElement(i, k) == Map.getExit() || map.getElement(i, k) == Hero.getTag() || map.getElement(i, k) == Dragon.getTag()
-                || map.getElement(i, k) == Map.getWall() && map.getElement(i, k) == Key.getTag() || forbiddenDragonPos(i, k, map));
+                || map.getElement(i, k) == Map.getWall() || map.getElement(i, k) == Key.getTag() || forbiddenDragonPos(i, k, map));
         map.setElement(i, k, Dragon.getTag());
         setCoordinates(i,k);
     }

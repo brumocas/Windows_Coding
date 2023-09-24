@@ -2,23 +2,42 @@ package dkeep.cli;
 
 import dkeep.logic.*;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 public class GameLogic {
 
     public static void run() {
+        System.out.println("Dragons Bane Game");
+        System.out.println("Insert the number of Dragons:");
+        Scanner scanner = new Scanner(System.in);
+        int num = scanner.nextInt();
 
         // Create map instance
         Map map = new Map();
         Hero hero = new Hero();
-        Key key = new Key();
-        Dragon dragon = new Dragon();
+        Sword key = new Sword();
+
+        // Array for dragons
+        List<Dragon> army = new ArrayList<>();
+
+        // Set number of dragons
+        map.setNumberDragons(num);
+
+        for (int i = 0; i < num; i++){
+            Dragon dragon = new Dragon();
+            army.add(dragon);
+        }
 
         // Set Random Pos
         hero.setMap(map);
         key.setMap(map);
-        dragon.setMap(map);
+        for (Dragon dragon :army){
+            dragon.setMap(map);
+        }
 
         // Print the maze
-        System.out.println("Dragons Bane Game\n");
         Print.maze(map);
 
         char movement;

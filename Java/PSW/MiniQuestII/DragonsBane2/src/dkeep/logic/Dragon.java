@@ -1,6 +1,8 @@
 package dkeep.logic;
 
 
+import dkeep.random.RandomNumber;
+
 public class Dragon extends Element {
     private static int tag = 3;
 
@@ -19,7 +21,7 @@ public class Dragon extends Element {
             k = RandomNumber.randomNumber();
         }
         while (map.getElement(i, k) == Map.getExit() || map.getElement(i, k) == Hero.getTag() || map.getElement(i, k) == Dragon.getTag()
-                || map.getElement(i, k) == Map.getWall() && map.getElement(i, k) == Key.getTag() || forbiddenDragonPos(i, k, map));
+                || map.getElement(i, k) == Map.getWall() || map.getElement(i, k) == Sword.getTag() || forbiddenDragonPos(i, k, map));
         map.setElement(i, k, Dragon.getTag());
         setCoordinates(i,k);
     }
@@ -35,8 +37,8 @@ public class Dragon extends Element {
             return true;
 
         // Dragon is near the key
-        if (map.getElement(i - 1, k) == Key.getTag() || map.getElement(i + 1, k) == Key.getTag() || map.getElement(i, k - 1) == Key.getTag()
-                || map.getElement(i, k + 1) == Key.getTag())
+        if (map.getElement(i - 1, k) == Sword.getTag() || map.getElement(i + 1, k) == Sword.getTag() || map.getElement(i, k - 1) == Sword.getTag()
+                || map.getElement(i, k + 1) == Sword.getTag())
             return true;
 
         // Dragon is near the Hero
