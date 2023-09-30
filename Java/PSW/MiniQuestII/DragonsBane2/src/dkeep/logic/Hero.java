@@ -2,8 +2,10 @@ package dkeep.logic;
 
 import dkeep.random.RandomNumber;
 
+import java.util.List;
+
 public class Hero extends Element {
-    private static int tag = 2;
+    private static int tag = 2 ;
     private boolean wSword = false;
 
     // Constructor
@@ -39,17 +41,17 @@ public class Hero extends Element {
     }
 
     // Function to move the Hero position
-    public int move(Map map, char movement) {
+    public int move(Map map, char movement, List<Dragon> army, Sword sword) {
         // Find Hero position
         int i, k;
         i = getCoordinateX();
         k = getCoordinateY();
 
         return switch (movement) {
-            case 'w' -> nextMove(i - 1, k, map);
-            case 's' -> nextMove(i + 1, k, map);
-            case 'a' -> nextMove(i, k - 1, map);
-            case 'd' -> nextMove(i, k + 1, map);
+            case 'w' -> nextMove(i - 1, k, map, army, sword);
+            case 's' -> nextMove(i + 1, k, map, army, sword);
+            case 'a' -> nextMove(i, k - 1, map, army, sword);
+            case 'd' -> nextMove(i, k + 1, map, army, sword);
             default -> {
                 System.out.println("Invalid move");
                 yield 1;
@@ -57,10 +59,11 @@ public class Hero extends Element {
         };
     }
 
-    public int nextMove(int i, int k, Map map) {
+
+    public int nextMove(int i, int k, Map map, List<Dragon> army, Sword sword) {
 
         // Check if you pick the Sword
-        if (!swordStatus() && map.getElement(i, k) == Sword.getTag()) {
+        if (!swordStatus() && (sword.getCoordinateX() == i) && (sword.getCoordinateY()) == k) {
             getSword();
         }
 
@@ -72,26 +75,22 @@ public class Hero extends Element {
             return 2;
         }
 
-        // Check if you are going to hit the adjacent dragon squares and can kill him
-        if (Dimensions.check(i, k, map.getLength())) {
-            if (map.getElement(i - 1, k) == Dragon.getTag() || map.getElement(i + 1, k) == Dragon.getTag()
-                    || map.getElement(i, k - 1) == Dragon.getTag() || map.getElement(i, k + 1) == Dragon.getTag()) {
+        // Check for each dragon if you hit them
+        for (Dragon dragon : army) {
+            if (checkCollision(i, k, dragon.getCoordinateX(), dragon.getCoordinateY())) {
                 if (swordStatus()) {
-                    // You kill the Dragon
+                    //You Kill the Dragon
+                    System.out.println("Dragon Killed 1");
                     map.killDragon();
-                    eraseDragon(i + 1, k, map);
-                    eraseDragon(i - 1, k, map);
-                    eraseDragon(i, k + 1, map);
-                    eraseDragon(i, k - 1, map);
+                    dragon.kill();
+                    map.setElement(getCoordinateX(),getCoordinateX(),Map.getSpace());
+                    map.setElement(dragon.getCoordinateX(), dragon.getCoordinateY(), Map.getSpace());
                     map.setElement(i, k, Hero.getTag());
-                    map.setElement(getCoordinateX(), getCoordinateY(), Map.getSpace());
                     setCoordinates(i, k);
                     return 1;
-                } else {
+                }
+                else {
                     // You die, no Sword
-                    map.setElement(i, k, Hero.getTag());
-                    map.setElement(getCoordinateX(), getCoordinateY(), Map.getSpace());
-                    setCoordinates(i, k);
                     return 0;
                 }
             }
@@ -108,9 +107,11 @@ public class Hero extends Element {
         return 1;
     }
 
-    void eraseDragon(int i, int k, Map map) {
-        if (map.getElement(i, k) == Dragon.getTag())
-            map.setElement(i, k, Map.getSpace());
-    }
-}
 
+    public boolean checkCollision(int i, int k, int x, int y) {
+
+        return ((i - 1 == x) && (k == y)) || ((i + 1 == x) && (k == y)) || ((i == x) && (k - 1 == y)) || ((i == x) && (k + 1 == y));
+    }
+
+
+}

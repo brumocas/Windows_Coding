@@ -11,11 +11,12 @@ package dkeep.logic;
 
         0 -> empty cell
         1 -> wall
-        s
         2 -> Hero
         3 -> Dragon
         4 -> Exit
-        5 -> Key
+        5 -> Sword
+        6 -> Armed Hero
+
          */
 public class Map {
     private static int numberDragons = 0;

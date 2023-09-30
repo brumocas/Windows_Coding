@@ -24,6 +24,13 @@ public class Print {
                     case 0:
                         System.out.print("  ");
                         break;
+                    case 6:
+                        System.out.print("A ");
+                        break;
+                    case 7:
+                        System.out.print("  ");
+                        break;
+
                     default:
                         throw new IllegalArgumentException("Invalid maze char");
                 }
