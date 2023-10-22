@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d07e7c3-eaeb-4f7d-9475-cd863f6da58e" name="Changes" comment="">
+    <list default="true" id="6ba1f008-33b1-48b9-ae01-31017582daaf" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/Client.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/communication/communication.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/database/database.java" afterDir="false" />
@@ -13,12 +13,6 @@
       <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/logic/game.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/player/player.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/Scene1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/Scene3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/resources/com/guitest/scene1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/resources/com/guitest/scene3.0.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../AI/AI.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../AI/AI2.0.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/autosearch.py" beforeDir="false" />
@@ -34,7 +28,7 @@
       <change beforePath="$PROJECT_DIR$/../../../Gui/im2pdfguiCTk.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../Gui/python_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../comsControllers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comsControllers/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../switchScenes/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../switchScenes/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PSW/a01_1" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,60 +36,51 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="FxmlFile" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-      </MavenGeneralSettings>
-    </option>
-  </component>
   <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 7
 }</component>
-  <component name="ProjectId" id="2X1y1ckRLnwt5HtDjFWo16T4iF9" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2X5BKLVYhuC7XXplHCDDbdeUI8N" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;test&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_directory_selection&quot;: &quot;C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/Java/JavaFx/switchScenes/src/main/java/com/example/switchscenes&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/Java/JavaFx/switchScenes&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "test",
+    "last_opened_file_path": "C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/Java/JavaFx/guitest",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "SDKs",
+    "project.structure.proportion": "0.15332031",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "advanced.settings",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\bruco\OneDrive - Universidade do Porto\Professional Life\Code\Windows\Java\JavaFx\imageview\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\bruco\OneDrive - Universidade do Porto\Professional Life\Code\Windows\Java\JavaFx\imageview\src\main\java" />
+      <recent name="C:\Users\bruco\OneDrive - Universidade do Porto\Professional Life\Code\Windows\Java\JavaFx\imageview\src\main\java\com\example\imageview" />
+      <recent name="C:\Users\bruco\OneDrive - Universidade do Porto\Professional Life\Code\Windows\Java\JavaFx\imageview\src\main\resources\com\example\imageview" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="main" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.switchscenes.main" />
-      <module name="switchScenes" />
+    <configuration name="HelloApplication" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="20" />
+      <option name="MAIN_CLASS_NAME" value="com.example.imageview.HelloApplication" />
+      <module name="imageview" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -104,19 +89,23 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4d07e7c3-eaeb-4f7d-9475-cd863f6da58e" name="Changes" comment="" />
-      <created>1697810667675</created>
+      <changelist id="6ba1f008-33b1-48b9-ae01-31017582daaf" name="Changes" comment="" />
+      <created>1697909001342</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1697810667675</updated>
-      <workItem from="1697810668804" duration="1533000" />
-      <workItem from="1697894597031" duration="169000" />
-      <workItem from="1697979380741" duration="2542000" />
-      <workItem from="1697991076192" duration="603000" />
+      <updated>1697909001342</updated>
+      <workItem from="1697909002126" duration="3345000" />
+      <workItem from="1697912391714" duration="86000" />
+      <workItem from="1697916805733" duration="474000" />
+      <workItem from="1697978012354" duration="269000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

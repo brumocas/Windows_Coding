@@ -5,42 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d8f3ff4a-5ac0-4d03-9767-7babbd47b3ac" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.idea/cssdialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/src/main/java/com/example/css/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/src/main/resources/com/example/css/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../css/src/main/resources/com/example/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/java/com/example/switchscenes/controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/java/com/example/switchscenes/main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/resources/com/example/switchscenes/hello-view.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/resources/com/example/switchscenes/scene1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../switchScenes/src/main/resources/com/example/switchscenes/scene2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/AI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../AI/AI2.0.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/autosearch.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/downloadsDelete.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/img2pdfGui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/pdfReader.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/rickRoll.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/subjects_folders.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/guiCustomTkinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/guiImage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/guiTkinter.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/im2pdfgui.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/im2pdfguiCTk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Gui/python_logo.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PSW/a01_1" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSW/a01_1/Client/gui/controllers/board.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1/Client/gui/controllers/board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSW/a01_1/Client/gui/controllers/gui.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1/Client/gui/controllers/gui.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../PSW/a01_1/Client/test/game.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1/Client/test/game.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,9 +47,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2X214GtBMl4bbqme7n5BhDi9IDO" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -83,7 +65,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "test",
-    "last_opened_file_path": "C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/Java/openjfx-21.0.1_windows-x64_bin-sdk/javafx-sdk-21.0.1/lib",
+    "last_opened_file_path": "C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/Java/PSW/a01_1",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -112,6 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1697812168082</updated>
       <workItem from="1697812169163" duration="2464000" />
+      <workItem from="1697816464947" duration="509000" />
     </task>
     <servers />
   </component>
