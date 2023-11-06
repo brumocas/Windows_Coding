@@ -5,15 +5,14 @@
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 
-
 <AnchorPane prefHeight="400" prefWidth="600" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.guiexample.Scene3">
    <children>
-      <ImageView fitHeight="600" fitWidth="680.0" layoutX="-11.0" layoutY="-17.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="488.0" fitWidth="778.0" layoutY="-20.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="file:/C:/Users/bruco/OneDrive%20-%20Universidade%20do%20Porto/Professional%20Life/Code/Windows/Java/JavaFx/GuiExample/src/main/java/com/example/guiexample/image2.jpg" />
+            <Image url="@images/image2.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="213.0" layoutY="232.0" mnemonicParsing="false" text="Host" />
-      <Button fx:id="joinButton" layoutX="370.0" layoutY="232.0" mnemonicParsing="false" onAction="#setScene4" text="Join " />
+      <Button layoutX="268.0" layoutY="209.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="196.0" styleClass="button-primary" stylesheets="@test.css" text="Host" />
+      <Button fx:id="joinButton" layoutX="268.0" layoutY="292.0" mnemonicParsing="false" onAction="#setScene4" prefHeight="51.0" prefWidth="196.0" styleClass="button-primary" stylesheets="@test.css" text="Join" />
    </children>
 </AnchorPane>

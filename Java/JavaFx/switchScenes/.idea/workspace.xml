@@ -5,35 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d07e7c3-eaeb-4f7d-9475-cd863f6da58e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/communication/communication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/database/database.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/database/footballer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/logic/board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/logic/game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Client/src/main/java/com/example/client/player/player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/Scene1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/Scene3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/image1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/java/com/guitest/image2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/resources/com/guitest/scene1.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../guitest/src/main/resources/com/guitest/scene3.0.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AI/AI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../AI/AI2.0.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/autosearch.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/downloadsDelete.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/img2pdfGui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/pdfReader.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/rickRoll.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Automation_Projects/subjects_folders.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/guiCustomTkinter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/guiImage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/guiTkinter.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/im2pdfgui.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/im2pdfguiCTk.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Gui/python_logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../comsControllers/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../comsControllers/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/GuiTeckSpike.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/1.png" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/images/1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/2.png" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/images/2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/Scene3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/Scene3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/Scene4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/Scene4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/image1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/images/image1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/java/com/example/guiexample/image2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/images/image2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene1.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene1.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene2.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene2.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene3.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene3.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene4.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/../GuiExample/src/main/resources/com/example/guiexample/scene4.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../stages/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../stages/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../PSW/a01_1" beforeDir="false" afterPath="$PROJECT_DIR$/../../PSW/a01_1" afterDir="false" />
     </list>
@@ -113,6 +96,8 @@
       <workItem from="1697894597031" duration="169000" />
       <workItem from="1697979380741" duration="2542000" />
       <workItem from="1697991076192" duration="603000" />
+      <workItem from="1698484885575" duration="16000" />
+      <workItem from="1698485849998" duration="153000" />
     </task>
     <servers />
   </component>

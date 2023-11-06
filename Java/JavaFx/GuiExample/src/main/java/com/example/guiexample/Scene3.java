@@ -26,6 +26,7 @@ public class Scene3 {
         root = FXMLLoader.load(Objects.requireNonNull(getClass().getResource("scene4.fxml")));
         stage = (Stage)((Node)event.getSource()).getScene().getWindow();
         scene = new Scene(root);
+        stage.setFullScreen(true);
         stage.setScene(scene);
         stage.show();
     }
