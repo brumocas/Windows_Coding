@@ -1,2 +1,0 @@
-C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/cpp/gtestexample/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/bruco/OneDrive - Universidade do Porto/Professional Life/Code/Windows/cpp/gtestexample/cmake-build-debug/CMakeFiles/rebuild_cache.dir
