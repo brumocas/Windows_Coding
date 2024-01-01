@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="430.0" prefWidth="791.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.guitest.Scene1">
+   <children>
+      <ImageView fx:id="backgroundImage" fitHeight="584.0" fitWidth="914.0" layoutX="-45.0" layoutY="-56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:/C:/Users/bruco/OneDrive%20-%20Universidade%20do%20Porto/Professional%20Life/Code/Windows/Java/JavaFx/guitest/src/main/java/com/guitest/image2.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="newGameButton" layoutX="313.0" layoutY="139.0" mnemonicParsing="false" onAction="#setScene3" prefHeight="45.0" prefWidth="161.0" text="New Game">
+         <font>
+            <Font size="25.0" />
+         </font></Button>
+      <Button fx:id="startbutton1" layoutX="313.0" layoutY="210.0" mnemonicParsing="false" onAction="#setScene2" prefHeight="45.0" prefWidth="161.0" text="Database">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="startbutton11" layoutX="313.0" layoutY="276.0" mnemonicParsing="false" onAction="#setScene2" prefHeight="45.0" prefWidth="161.0" text="Guide">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="startbutton12" layoutX="313.0" layoutY="336.0" mnemonicParsing="false" onAction="#setScene2" prefHeight="45.0" prefWidth="161.0" text="WebInfo">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="startbutton121" layoutX="313.0" layoutY="406.0" mnemonicParsing="false" onAction="#setScene2" prefHeight="45.0" prefWidth="161.0" text="Quit">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
